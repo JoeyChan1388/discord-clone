@@ -1,0 +1,11 @@
+.channel-users {
+    display: flex;
+    flex: 0.15;
+    background-color: #2f3135;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.channel-online-users {
+    color: gray;
+}

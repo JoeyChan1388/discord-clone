@@ -1,0 +1,105 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    height: 100vh;
+    background-color: #2f3135;
+}
+
+.sidebar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+
+.sidebar-channels {
+    flex: 1;
+}
+
+.sidebar-addChannel {
+    cursor: pointer;
+}
+
+.sidebar-addChannel:hover {
+    color: white;
+}
+
+.sidebar-channels-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-channel > h4 {
+    display: flex;
+    padding-left: 15px;
+    align-items:  center;
+    background-color: #2f3135;
+    color: gray;
+    cursor: pointer;
+}
+
+.sidebar-channel:hover {
+    color: white;
+    background-color: #40464b;
+}
+
+.sidebar-channel-hashtag {
+    font-size: 30px;
+    padding: 8px;
+}
+
+.sidebar-voice, .sidebar-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #2a2c30;
+    padding: 10px;
+    border-top: 1px solid #2f3135;
+    
+}
+
+.sidebar-voice-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.connected {
+    color: #4fb185;
+}
+
+.sidebar-profile-user-name {
+    color: white;
+}
+
+.sidebar-profile-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar-profile-icons {
+    color: rgb(179, 176, 176);
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.avatar {
+    aspect-ratio: 1/1;
+    width: 2.5rem;
+    border-radius: 50%;
+}

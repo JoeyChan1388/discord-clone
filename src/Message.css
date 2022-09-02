@@ -1,0 +1,29 @@
+.message {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 99%;
+    padding: 20px;
+    
+}
+
+.message-info {
+    margin-left: 20px;
+    align-items: flex-start;
+}
+
+.message:hover {
+    background-color: #2f3135
+}
+
+.message-timestamp {
+    margin-left: 25px;
+    font-size: smaller;
+    color: gray;
+}
+
+.message-avatar {
+    aspect-ratio: 1/1;
+    width: 2.8rem;
+    border-radius: 50%;
+}
